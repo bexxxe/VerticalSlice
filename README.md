@@ -60,7 +60,15 @@ Devlog Question 4:
 I used the Scriptable Object feature most; I created 2: one for items and one for customers. 
 
 ## Milestone 3 Devlog
-Milestone 3 Devlog goes here.
+Devlog Q1:
+This is a 2D Sprite unlit shader that I added to the dog customer. Since the dog is a ghost, I left it slightly transparent to mimic that. Using MainTex, it grabs your sprite's texture. Then, by adding a multiply node, it multiplies your glow color by the glow amount and adds that to the texture. Adding brightens the sprite toward the glow color instead of painting over it with a flat color, so the detail stays. The texture's transparency passes straight through, leaving the sprite's outline clean so the glow doesn't bleed into the surrounding empty space. This is found in my Scripts Folder in the Shaders folder. So Scripts> Shader.
+<img width="1619" height="917" alt="image" src="https://github.com/user-attachments/assets/17635687-f49f-461f-ba9f-61d6f95de21c" />
+
+Devlog Q2:
+I got a bunch of feedback, but I saw that people struggled most with where to place the item. Most people were giving the item directly to the customer instead of on the mat, so I added an outline to the mat. Whenever a player holds an item, the mat gets highlighted, indicating that you should place it there. Then I added a feature someone suggested: when you place the wrong item on the mat, the NPC takes money as a penalty, making the player actually read the text instead of just guessing everything. Also, some people struggled with what the NPCs were saying, so I changed some of the dialogue. 
+
+Devlog Q3:
+The most noticeable change since Milestone 2 is the background, which I drew, and the placeholders have been removed. I also fixed most of the UI problems where text didn't fit in the text box; there was also an issue with the mat and how you could place multiple items on it, and the customer would take the first item placed, regardless of whether that was the correct item. I made it so that only one item could be placed on there. Most of the new content was from playtesting feedback. Since I finished my gameplay loop quite early, it has just been bug fixes and some polishing.
 ## Milestone 4 Devlog
 Milestone 4 Devlog goes here.
 ## Final Devlog
