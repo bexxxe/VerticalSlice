@@ -61,7 +61,7 @@ I used the Scriptable Object feature most; I created 2: one for items and one fo
 
 ## Milestone 3 Devlog
 Devlog Q1:
-This is a 2D Sprite unlit shader that I added to the dog customer. Since the dog is a ghost, I left it slightly transparent to mimic that. Using MainTex, it grabs your sprite's texture. Then, by adding a multiply node, it multiplies your glow color by the glow amount and adds that to the texture. Adding brightens the sprite toward the glow color instead of painting over it with a flat color, so the detail stays. The texture's transparency passes straight through, leaving the sprite's outline clean so the glow doesn't bleed into the surrounding empty space. This is found in my Scripts Folder in the Shaders folder. So Scripts> Shader.
+This is a 2D Sprite unlit shader that I added to the dog customer. Since the dog is a ghost, I left it slightly transparent to mimic that. Using MainTex, it grabs your sprite's texture. Then, by adding a multiply node, it multiplies your glow color by the glow amount and adds that to the texture. The Add node brightens the sprite toward the glow color instead of painting over it with a flat color, so the detail stays. The texture's transparency passes straight through, leaving the sprite's outline clean so the glow doesn't bleed into the surrounding empty space. The shader is found in my Scripts Folder in the Shaders folder. So Assets > Scripts > Shader.
 <img width="1619" height="917" alt="image" src="https://github.com/user-attachments/assets/17635687-f49f-461f-ba9f-61d6f95de21c" />
 
 Devlog Q2:
